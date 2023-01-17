@@ -35,7 +35,6 @@ function newWord() {
     for(let i = 0; i < randomWord.length; i++) {
         if(randomWord[i] === " ") wordArray[i] = "-"; else wordArray.push("_");
     }
-    console.log(randomWord);
     reloadView();
 }
 
